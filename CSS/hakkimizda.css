@@ -4,112 +4,106 @@
 
 .section-1 {
     width: 100%;
-    height: 55vh;
-    background-image: url("../Assets/bg3.webp");
+    height: 75vh;
+    background-image: url("../Assets/yanResim.webp");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
-.text-content h1{
-    color: white;
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.text-content h2 {
+    margin-top: 30px;
+    color: rgb(22, 22, 22);
+}
+
+.text-content h1{
+    color: var(--primary-color);
+}
 .section2-h {
     width: 100%;
-    position: absolute;
-    top: 50vh;
-    display: flex;
-    justify-content: center;
-}
-.section2-h-content {
-    width: 62%;
-    border: solid 4px var(--primary-color);
-    background-color: white;
     display: flex;
     align-items: center;
-    flex-direction: column;
-}
-.section2-h-2 {
-    border: solid 4px var(--primary-color);
-    width: 38%;
-    height: 50vh;
-    background-color: var(--primary-color);
-    display: flex;
-
     justify-content: center;
-    min-height: 98.5%;
 }
 
 .section-2-main-content {
     width: 80%;
     display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
-    box-shadow: 0 0 4px var(--primary-color),
-                0 0 8px var(--primary-color),
-                0 0 16px var(--primary-color);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bosluk {
+    margin-left: 40px;
+}
+
+.section-2-left {
+    margin-right: 30px;
+}
+.section-2-left h1 {
+    color: var(--primary-color);
+    margin: 60px 0;
+    text-align: center;
+}
+.section-2-left p {
+    margin-left: 45px;
+    font-weight: 500;
     
 }
-.section2-h-content h2 {
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.c-p {
     color: var(--primary-color);
-    margin: 22px;
+    font-weight: 600;
 }
 
-.section2-h-content p {
-    margin: 20px 30px;
-}
-.bosluk {
-    margin-left: 34px;
-}
-
-
-.section-h-2-content {
-    width: 80%;
-    margin-top: 22px;
+.section-2-left button {
+    padding: 10px 40px ;
+    border: solid 3px var(--primary-color);
+    border-radius: 30px;
+    background-color: transparent;
+    text-align: center;
+    margin: 50px;
+    transition: all 0.4s;
+    cursor: pointer;
 }
 
-.section-h-2-content h2 {
+.section-2-left button:hover {
+    background-color: var(--primary-color);
     color: white;
-    margin-bottom: 20px;
+    box-shadow: 0 0 8px var(--primary-color),
+                0 0 16px var(--primary-color),
+                0 0 32px var(--primary-color);
 }
 
-.section-h-2-content p .buyuk {
-    font-size: 26px;
-    color: white;
-    margin-right: 20px;
+.section-2-right img{
+    width: 400px;
 }
 
-.section-h-2-content p {
-    color: black;
-    margin: 20px 0;
-}
-
-.section-h-2-content .social a i{
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    transition: all .3s;
-}
-
-.section-h-2-content .social a:hover i {
-    color: #E1A039;
-    background-color: white;
-
-}
 .section-3-h {
-    margin-top: 70vh;
     width: 100%;
     height: 70vh;
     display: flex;
     justify-content: center;
 }
+
 .section-3-h-content {
     width: 80%;
     height: 100%;
 }
+
+
 
 #map {
     height: 400px; /* Harita yüksekliği */
