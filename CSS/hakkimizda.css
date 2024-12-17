@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #E1A039;
+}
+
+.section-1 {
+    width: 100%;
+    height: 55vh;
+    background-image: url("../Assets/bg3.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content h1{
+    color: white;
+}
+
+.section2-h {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.section2-h-content {
+    width: 62%;
+    border: solid 4px var(--primary-color);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section2-h-2 {
+    border: solid 4px var(--primary-color);
+    width: 38%;
+    height: 50vh;
+    background-color: var(--primary-color);
+    display: flex;
+
+    justify-content: center;
+    min-height: 98.5%;
+}
+
+.section-2-main-content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    box-shadow: 0 0 4px var(--primary-color),
+                0 0 8px var(--primary-color),
+                0 0 16px var(--primary-color);
+    
+}
+.section2-h-content h2 {
+    color: var(--primary-color);
+    margin: 22px;
+}
+
+.section2-h-content p {
+    margin: 20px 30px;
+}
+.bosluk {
+    margin-left: 34px;
+}
+
+
+.section-h-2-content {
+    width: 80%;
+    margin-top: 22px;
+}
+
+.section-h-2-content h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-h-2-content p .buyuk {
+    font-size: 26px;
+    color: white;
+    margin-right: 20px;
+}
+
+.section-h-2-content p {
+    color: black;
+    margin: 20px 0;
+}
+
+.section-h-2-content .social a i{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+.section-h-2-content .social a:hover i {
+    color: #E1A039;
+    background-color: white;
+
+}
+.section-3-h {
+    margin-top: 70vh;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.section-3-h-content {
+    width: 80%;
+    height: 100%;
+}
+
+#map {
+    height: 400px; /* Harita yüksekliği */
+    width: 600px;   /* Harita genişliği */
+    border-radius: 25px;
+    border: solid 3px var(--primary-color);
+}
+
+.section-3-h-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-h-left img {
+    width: 420px ;
+}
+
+.section-4-h {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.section-4-h img {
+    width: 500px;
+}
+
+.section-4-h-content {
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    margin-left: 80px;
+    border-radius: 40px;
+    border: solid 4px var(--primary-color);
+    padding: 50px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input,textarea {
+    color: white;
+    outline: none;
+}
+
+.name input {
+    width: 300px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 3px var(--primary-color);
+    border-radius: 20px;
+}
+
+.mail input {
+    padding: 10px 20px;
+    width: 714px;
+    margin: 50px 0;
+    background-color: transparent;
+    border: solid 3px var(--primary-color);
+    border-radius: 20px;
+}
+
+.message textarea {
+    padding: 10px 20px;
+    min-width: 714px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: solid 3px var(--primary-color);
+    border-radius: 20px;
+    min-height: 28vh;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit button {
+    padding: 10px 60px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    width: 760px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.h1 h1 {
+    color: white;
+    margin-bottom: 50px;
+}

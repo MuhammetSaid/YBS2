@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/hakkimizda.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+<body>
+    <section class="section-1">
+        <div class="section-1-content">
+
+            <header class="header">
+                <div class="header-content">
+
+                    <div class="header-navbar">
+                        <div class="navbar-content">
+                            <div class="header-logo">
+                                <img src="Assets/logo.png" alt="">
+                            </div>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="index.html">Ana Sayfa</a> <div class="span"></div></li>
+                                    <li><a href="">Hakkımızda</a><div class="span"></div></li>
+                                    <li><a href="">Projelerimiz</a><div class="span"></div></li>
+                                    <li><a href="">Hizmetler</a><div class="span"></div></li>
+                                    <li><a href="">Referanslar</a><div class="span"></div></li>
+                                </ul>
+                            </div>
+                            <div class="login">
+                                <button class="login-btn">Login</button>
+                                <button class="signin-btn">Signin</button>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                    <div class="header-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </header>
+
+        </div>
+
+        <div class="section-text">
+            <div class="text-content">
+                <h1>Hakkımızda</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2-h">
+        <div class="section-2-main-content">
+            <div class="section2-h-content">
+                <h2>İlham Veren Hikayemiz ve Geleceğe Dokunan Adımlarımız</h2>
+                <p><span class="bosluk"></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam a quos architecto culpa repellat sit tempora est ipsum voluptates sapiente qui excepturi nulla sunt nemo, eos, corrupti illo dolore nihil exercitationem, ducimus atque? Vel saepe aperiam expedita delectus eos! Neque illo animi voluptatum excepturi laboriosam modi quibusdam vitae architecto culpa vero similique, placeat possimus repudiandae omnis voluptatem quod quia aliquid tempore numquam! Libero totam voluptatum recusandae earum dolor consectetur tempora eaque, qui harum aperiam dicta obcaecati alias quasi provident dolorem officiis non, eveniet dolorum eos accusamus odio voluptas. Doloremque consequuntur sit architecto doloribus sed autem! Nobis alias itaque corporis numquam iure ea ducimus quisquam asperiores. Illum doloribus qui animi quaerat officiis modi commodi! Earum magni modi voluptates! Fugiat hic labore qui itaque obcaecati temporibus dicta dignissimos voluptas maiores deleniti adipisci quod neque vitae illum repellat, necessitatibus dolorem similique. Ea voluptate porro iste. Consequatur ipsa temporibus, rerum iste ut harum quidem dolore quas. Temporibus, odio eaque rem, ab reiciendis quod eum fugiat perferendis corrupti illum modi sunt illo facilis atque ut blanditiis delectus hic tempora! Quas ipsam nisi, quo sed illo optio dolorum ullam accusamus libero quaerat culpa. Consequatur soluta molestias sed atque quia consequuntur quo eaque in odit sint est iure perferendis doloribus inventore dicta commodi aliquid, libero id. Mollitia doloremque reiciendis voluptas adipisci eum vel sint vero exercitationem cum.</p>
+            </div>
+            <div class="section2-h-2">
+                <div class="section-h-2-content">
+                    <h2>Contact Me</h2>
+                    <p><span class="buyuk"><i class="fa-solid fa-map-location-dot"></i></span> Türkiye, Malatya, Battalgazi, Teknopark, İç Kapı: 4-O-12</p>
+                    <p><span class="buyuk"><i class="fa-solid fa-phone"></i></span>+90 (537) 645 58 45</p>
+                    <p><span class="buyuk"><i class="fa-solid fa-envelope"></i></span>companyname@gmail.com</p>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-3-h">
+        <div class="section-3-h-content">
+            <div class="section-3-h-left">
+                <img src="./Assets/navigation.png" alt="">
+            </div>
+            <div class="section-3-h-right">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="section-4-h">
+        <div class="section-4-h-content">
+            <div class="h1">
+                <h1>İletişime Geçin</h1>
+            </div>
+            <div class="name">
+                <div class="first-name">
+                    <input type="text" placeholder="Name...">
+                </div>
+                <div class="last-name">
+                    <input type="text" placeholder="Surname...">
+                </div>
+            </div>
+            <div class="mail">
+                <input type="text" placeholder="Mail...">
+            </div>
+            <div class="message">
+                <textarea name="" id="" placeholder="Message..."></textarea>
+            </div>
+            <div class="submit">
+                <button>Submit</button>
+            </div>
+        </div>
+        <div class="section-4-h-right">
+            <img src="./Assets/quino-al-8gWEAAXJjtI-unsplash-removebg-preview.png" alt="">
+       </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <img src="./Assets/logo.png" alt="">
+            <div class="footer-menu">
+                <div class="footer-menu-menu">
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a> </li>
+                        <li><a href="">Hakkımızda</a></li>
+                        <li><a href="">Projelerimiz</a></li>
+                        <li><a href="">Hizmetler</a></li>
+                        <li><a href="">Referanslar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu-social">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Haritayı başlatma
+        const map = L.map('map').setView([38.34126347093579, 38.43490123325463], 15); // Koordinatlar ve zoom seviyesi
+
+        // OpenStreetMap katmanını ekleme
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19, // Maksimum yakınlaştırma seviyesi
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // İşaretçi ekleme
+        const marker = L.marker([38.351, 38.333]).addTo(map)
+            .bindPopup('<b>Malatya Teknopark</b><br>Buraya işaretçi eklendi.') // Popup mesajı
+            .openPopup();
+    </script>
+</body>
+</html>
