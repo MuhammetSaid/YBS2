@@ -13,8 +13,8 @@ body {
 
 .section-1 {
     width: 100%;
-    height: 75vh;
-    background-image: url("../Assets/bg2.png");
+    height: 100vh;
+    background-image: url("../Assets/WhatsApp Görsel 2024-12-23 saat 10.16.38_b01adda4.jpg");
     background-attachment: fixed;  
     background-position: center;
     background-size: cover;
@@ -142,7 +142,7 @@ body {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .text-content h1 {
@@ -179,10 +179,17 @@ body {
 }
 
 .section-2 .section-2-content {
-    width: 90%;
+    width: 94%;
     margin-top: 50px;
 }
 
+.cards-2-customer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
 .section-2-title {
     width: 100%;
     display: flex;
@@ -203,7 +210,7 @@ body {
 }
 
 .section-2-cards {
-    width: 100%;
+    width: 65%;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -299,24 +306,26 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .section-3-card {
     width: 360px;
-    height: 52vh;
     border: dashed gray 4px ;
     margin: 10px;
     cursor: pointer;
     position: relative;
     transition: all 0.5s;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.397);
+    border: solid 4px var(--primary-color);
 }
 
 .card-3-content {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 90%;
 }
 
 .section-3-h h1{
@@ -326,7 +335,7 @@ body {
 
 .section-3-p p{
     align-items: center;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .section-3-i {
@@ -398,11 +407,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 500px;
 }
 
 .section-4-card {
     width: 480px;
-    margin: 20px 40px;
+    margin: 10px 40px;
     border: solid 2px gray;
     display: flex;
     justify-content: center;
