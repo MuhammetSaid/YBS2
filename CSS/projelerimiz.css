@@ -1,0 +1,122 @@
+
+
+:root {
+    --primary-color: #E1A039;
+}
+
+.section-text-p {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-content-p {
+    width: 86%;
+}
+
+.projects-title h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.projelerimiz-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.projelerimiz-card {
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px var(--primary-color);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.projelerimiz-orta-card {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projelerimiz-orta-card h1 {
+    margin: 50px 0;
+}
+
+.projelerimiz-orta-card p {
+    text-align: center;
+}
+
+.projelerimiz-orta-card button{
+    padding: 20px 80px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    margin: 50px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+.p-card-top-1    {
+    width: 100%;
+    height: 70%;
+    border-radius: 40px 40px 0 0;   
+    background-image: url("../Assets/WhatsApp Görsel 2024-12-24 saat 11.27.31_6129b82b.jpg");
+    background-size: cover;
+}
+
+.p-card-top-2 {
+    width: 100%;
+    height: 70%;
+    border-radius: 40px 40px 0 0;   
+    background-image: url("../Assets/WhatsApp Görsel 2024-12-24 saat 11.32.16_8236d9a1.jpg");
+    background-size: cover;
+}
+
+.project-social {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.project-social a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #E1A039;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.project-social i {
+    font-size: 25px;
+    color: white;
+}
+
+.p-card-bottom-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.p-card-bottom-1 h2 {
+    margin-top: 10px;
+}
+.p-card-bottom-1 p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.c-p {
+    color: #E1A039;
+    font-weight: 600;
+}
