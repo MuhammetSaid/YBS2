@@ -19,7 +19,6 @@
 <body>
     <section class="section-1-h">
         <div class="section-1-content">
-
             <header class="header">
                 <div class="header-content">
 
@@ -40,6 +39,9 @@
                                 <button class="login-btn">Login</button>
                                 <button class="signin-btn">Signin</button>
                             </div>
+                            <div class="menu-icon-div" id="menuIcon">
+                                <i class="fa-solid fa-bars " ></i>
+                            </div>
                         </div>
 
                     </div>
@@ -48,14 +50,31 @@
                     </div>
                 </div>
             </header>
-
+        </div>
+        <div class="menu-overlay" id="menuOverlay">
+            <div class="menu">
+                <span class="close-icon" id="closeIcon">&times;</span>
+            
+                <nav>
+                    <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="projelerimiz.html">projelerimiz</a></li>
+                    <li><a href="#">Hizmetlerimiz</a></li>
+                    </ul>
+                </nav>
+            
+                <div class="search-section">
+                    <input type="text" placeholder="Search..." />
+                    <button>Search</button>
+                </div>
+            </div>
         </div>
     </section>
     <div class="hakkimizda-title">
         <div class="hakkimizda-title-content">
             <i class="fas fa-info-circle"></i>
             <h1>Hakkımızda</h1>
-            
         </div>
     </div>
     <section class="section2-h">
@@ -78,7 +97,8 @@
                     
                     <br>
                     <br>
-                    <span class="bosluk"></span>Siz de evinizi, ofisinizi veya iş yerinizi baştan yaratmak istiyorsanız, <span class="c-p">bizimle iletişime geçebilirsiniz</span>. Hayallerinizi gerçekleştirmek için buradayız!</p>
+                    <span class="bosluk"></span>Siz de evinizi, ofisinizi veya iş yerinizi baştan yaratmak istiyorsanız, <span class="c-p">bizimle iletişime geçebilirsiniz</span>. Hayallerinizi gerçekleştirmek için buradayız!
+                </p>
                 <div class="button">
                         <button>İletişime Geç</button>
                     </div>
@@ -143,21 +163,6 @@
         </div>
     </footer>
 
-
-    <script>
-        // Haritayı başlatma
-        const map = L.map('map').setView([38.34126347093579, 38.43490123325463], 15); // Koordinatlar ve zoom seviyesi
-
-        // OpenStreetMap katmanını ekleme
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19, // Maksimum yakınlaştırma seviyesi
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        // İşaretçi ekleme
-        const marker = L.marker([38.351, 38.333]).addTo(map)
-            .bindPopup('<b>Malatya Teknopark</b><br>Buraya işaretçi eklendi.') // Popup mesajı
-            .openPopup();
-    </script>
+    <script src="./JS/main.js"></script>
 </body>
 </html>

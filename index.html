@@ -12,44 +12,45 @@
 
 </head>
 <body>
-
-            <section class="section-1"> 
-                <div class="section-1-content">
-                    <header class="header">
-                        <div class="header-content">
-
-                            <div class="header-navbar">
-                                <div class="navbar-content">
-                                    <div class="header-logo">
-                                        <a href="index.html"><img src="Assets/logo.png" alt=""></a>
-                                        
-                                    </div>
-                                    <div class="header-menu">
-                                        <ul>
-                                            <li><a href="">Ana Sayfa</a> <div class="span"></div></li>
-                                            <li><a href="hakkimizda.html">Hakkımızda</a><div class="span"></div></li>
-                                            <li><a href="projelerimiz.html">Projelerimiz</a><div class="span"></div></li>
-                                            <li><a href="">Hizmetler</a><div class="span"></div></li>
-                                        </ul>
-                                    </div>
-                                    <div class="login">
-                                        <button class="login-btn">Login</button>
-                                        <button class="signin-btn">Signin</button>
-                                    </div>
+    <section class="section-1"> 
+        <header class="header">
+            <div class="header-content">
+                <div class="header-navbar">
+                    <div class="navbar-content">
+                                <!-- Header de bulunan logo resmi -->
+                                <div class="header-logo">
+                                    <a href="index.html"><img src="Assets/logo.png" alt=""></a>
                                 </div>
-
-                            </div>
-                            <div class="header-search">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                        </div>
-                    </header>
+                                <!-- Headerdaki menu (AnaSayfa , hakkımızda , projelerimiz , hizmetler) -->
+                                <div class="header-menu">
+                                    <ul>
+                                        <li><a href="">Ana Sayfa</a> <div class="span"></div></li>
+                                        <li><a href="hakkimizda.html">Hakkımızda</a><div class="span"></div></li>
+                                        <li><a href="projelerimiz.html">Projelerimiz</a><div class="span"></div></li>
+                                        <li><a href="">Hizmetler</a><div class="span"></div></li>
+                                    </ul>
+                                </div>
+                                <!-- Headerdaki login ve sign in buttonları -->
+                                <div class="login">
+                                    <button class="login-btn">Login</button>
+                                    <button class="signin-btn">Signin</button>
+                                </div>
+                                <!-- Menu Tuşu (üstüne basıldığında yan taraftan menu çıkar)-->
+                                <div class="menu-icon-div" id="menuIcon">
+                                    <i class="fa-solid fa-bars" ></i>
+                                </div>
+                    </div>
                 </div>
 
-                <div class="section-text">
-                    <div class="text-content">
-                        <div class="section-3-cards">
-                            <div class="section-3-card">
+                <div class="header-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="section-text">
+            <div class="section-3-cards">
+                <div class="section-3-card">
                                 <div class="card-3-content">
                                     <div class="section-3-i">
                                         <i class="fas fa-paint-roller"></i>
@@ -61,15 +62,16 @@
                                         <p>Ev ve iş yerlerinizin yenilenmesi için kapsamlı tadilat ve dekorasyon hizmetleri sunuyoruz. Mekanlarınızı daha işlevsel, konforlu ve estetik hale getirmek için ihtiyaçlarınıza özel çözümler üretiyoruz.</p>
                                     </div>
                                 </div>
+                                <!-- Cardın Üzerine gelindiğinde alttan çıkan resim -->
                                 <div class="card-hover-3 card-hover-3-1">
                                     <h1>Tadilat ve Dekorasyon</h1>
                                     <button>
                                         Ayrıntılar
                                     </button>
                                 </div>
-                            </div>
-    
-                            <div class="section-3-card">
+                </div>
+
+                <div class="section-3-card">
                                 <div class="card-3-content">
                                     <div class="section-3-i">
                                         <i class="fas fa-building"></i>
@@ -81,14 +83,16 @@
                                         <p>Deprem ve diğer doğal afetlere karşı binalarınızın dayanıklılığını artırıyoruz. Ayrıca, eski yapıları modern yaşam standartlarına uygun hale getirmek için modernizasyon hizmetleri sunarak, hem güvenliği hem de estetiği bir arada sağlıyoruz.</p>
                                     </div>
                                 </div>
+                                <!-- Cardın Üzerine gelindiğinde alttan çıkan resim -->
                                 <div class="card-hover-3 card-hover-3-2">
                                     <h1>Tadilat ve Dekorasyon</h1>
                                     <button>
                                         Ayrıntılar
                                     </button>
                                 </div>
-                            </div>
-                            <div class="section-3-card">
+                </div>
+
+                <div class="section-3-card">
                                 <div class="card-3-content">
                                     <div class="section-3-i">
                                         <i class="fas fa-key"></i>
@@ -100,29 +104,48 @@
                                         <p>Projelerinizin tüm süreçlerini profesyonel bir ekip tarafından yönetiyor ve size sorunsuz bir deneyim sunuyoruz. İster konut ister ticari bir bina olsun, ihtiyaçlarınıza özel çözümlerle anahtar teslim projeler üretiyoruz.</p>
                                     </div>
                                 </div>
+                                <!-- Cardın Üzerine gelindiğinde alttan çıkan resim -->
                                 <div class="card-hover-3 card-hover-3-3">
                                     <h1>Tadilat ve Dekorasyon</h1>
                                     <button>
                                         Ayrıntılar
                                     </button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </section>
+            </div>
+        </div>
+        <!-- Telefon menusu İcona Basıldığında yandan çıkan bölüm -->
+        <div class="menu-overlay" id="menuOverlay">
+                    <div class="menu">
+                        <span class="close-icon" id="closeIcon">&times;</span>
+                    
+                        <nav>
+                            <ul>
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                            <li><a href="projelerimiz.html">projelerimiz</a></li>
+                            <li><a href="#">Hizmetlerimiz</a></li>
+                            </ul>
+                        </nav>
+                    
+                        <div class="search-section">
+                            <input type="text" placeholder="Search..." />
+                            <button>Search</button>
+                        </div>
+                        </div>
+        </div>
+    </section>
 
-            <section class="section-2">
-                <div class="section-2-content">
-                    <div class="section-2-title">
-                        <h1>
-                            Neden<span class="ff"> Bizi</span> Seçmelisiniz?
-                        </h1>
-                        <h1 class="section-2-h1-i"><i class="fa-solid fa-check"></i></h1>
-                    </div>
-                    <div class="cards-2-customer">
-
-                        <div class="section-2-cards">
+    <section class="section-2">
+        <div class="section-2-content">
+            <div class="section-2-title">
+                <h1>
+                    Neden<span class="ff"> Bizi</span> Seçmelisiniz?
+                </h1>
+                <h1 class="section-2-h1-i"><i class="fa-solid fa-check"></i></h1>
+            </div>
+            <div class="cards-2-customer">
+                <div class="section-2-cards">
                             <div class="section-2-cards-card">
                                 <div class="card-content">
                                     <i class="fas fa-cube"></i>
@@ -162,9 +185,9 @@
                                     <p>Müşteri memnuniyetini temsil eden gülümseyen yüz simgesi.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="section-4-cards">
-                            <div class="section-4-card">
+                </div>
+                <div class="section-4-cards">
+                    <div class="section-4-card">
                                 <div class="section-4-card-content">
                                     <div class="profil">
                                         <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjEwMzQtZWxlbWVudC0wNi0zOTcucG5n.png" alt="">
@@ -183,29 +206,29 @@
                                         
                                     </div>
                                 </div>
+                    </div>
+
+                    <div class="section-4-card">
+                        <div class="section-4-card-content">
+                            <div class="profil">
+                                <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjExMjAtZWxlbWVudC0xOS5wbmc.png" alt="">
+                                <h2>Buse Akın</h2>
                             </div>
     
-                            <div class="section-4-card">
-                                <div class="section-4-card-content">
-                                    <div class="profil">
-                                        <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjExMjAtZWxlbWVudC0xOS5wbmc.png" alt="">
-                                        <h2>Buse Akın</h2>
-                                    </div>
-    
-                                    <div class="message-content">
-                                        <div class="stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
-                                    </div>
+                            <div class="message-content">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
                                 </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
                             </div>
+                        </div>
+                    </div>
     
-                            <div class="section-4-card">
+                    <div class="section-4-card">
                                 <div class="section-4-card-content">
                                     <div class="profil">
                                         <img src="https://marketplace.canva.com/EAFuJ5pCLLM/1/0/1600w/canva-black-and-gold-simple-business-man-linkedin-profile-picture-BM_NPo97JwE.jpg" alt="">
@@ -224,172 +247,13 @@
                                         
                                     </div>
                                 </div>
-                            </div>
-                        </div>
                     </div>
+                </div>
+            </div>
                     
-                </div>
-            </section>
-            <!--
-            <section class="section-3">
-                <div class="section-3-content">
-                    <div class="section-3-text">
-                        <h4>Hizmetlerimiz</h4>
-                        <h2>Her Aşamada Güvence: Alçıpandan Anahtar Teslimine Kadar Eksiksiz Hizmet!</h2>
-                    </div>
-                    <div class="section-3-cards">
-                        <div class="section-3-card">
-                            <div class="card-3-content">
-                                <div class="section-3-i">
-                                    <i class="fas fa-paint-roller"></i>
-                                </div>
-                                <div class="section-3-h">
-                                    <h1>Tadilat ve Dekorasyon</h1>
-                                </div>
-                                <div class="section-3-p">
-                                    <p>Ev ve iş yerlerinizin yenilenmesi için kapsamlı tadilat ve dekorasyon hizmetleri sunuyoruz. Mekanlarınızı daha işlevsel, konforlu ve estetik hale getirmek için ihtiyaçlarınıza özel çözümler üretiyoruz.</p>
-                                </div>
-                            </div>
-                            <div class="card-hover-3 card-hover-3-1">
-                                <h1>Tadilat ve Dekorasyon</h1>
-                                <button>
-                                    Ayrıntılar
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="section-3-card">
-                            <div class="card-3-content">
-                                <div class="section-3-i">
-                                    <i class="fas fa-building"></i>
-                                </div>
-                                <div class="section-3-h">
-                                    <h1>Yapı Güçlendirme ve Modernizasyon</h1>
-                                </div>
-                                <div class="section-3-p">
-                                    <p>Deprem ve diğer doğal afetlere karşı binalarınızın dayanıklılığını artırıyoruz. Ayrıca, eski yapıları modern yaşam standartlarına uygun hale getirmek için modernizasyon hizmetleri sunarak, hem güvenliği hem de estetiği bir arada sağlıyoruz.</p>
-                                </div>
-                            </div>
-                            <div class="card-hover-3 card-hover-3-2">
-                                <h1>Tadilat ve Dekorasyon</h1>
-                                <button>
-                                    Ayrıntılar
-                                </button>
-                            </div>
-                        </div>
-                        <div class="section-3-card">
-                            <div class="card-3-content">
-                                <div class="section-3-i">
-                                    <i class="fas fa-key"></i>
-                                </div>
-                                <div class="section-3-h">
-                                    <h1>Anahtar Teslim Projeler</h1>
-                                </div>
-                                <div class="section-3-p">
-                                    <p>Projelerinizin tüm süreçlerini profesyonel bir ekip tarafından yönetiyor ve size sorunsuz bir deneyim sunuyoruz. İster konut ister ticari bir bina olsun, ihtiyaçlarınıza özel çözümlerle anahtar teslim projeler üretiyoruz.</p>
-                                </div>
-                            </div>
-                            <div class="card-hover-3 card-hover-3-3">
-                                <h1>Tadilat ve Dekorasyon</h1>
-                                <button>
-                                    Ayrıntılar
-                                </button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
-
-            <section class="section-4">
-                <div class="section-4-content">
-                    <div class="section-4-cards">
-                        <div class="section-4-card">
-                            <div class="section-4-card-content">
-                                <div class="profil">
-                                    <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjEwMzQtZWxlbWVudC0wNi0zOTcucG5n.png" alt="">
-                                    <h2>Fred Williams</h2>
-                                </div>
-
-                                <div class="message-content">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section-4-card">
-                            <div class="section-4-card-content">
-                                <div class="profil">
-                                    <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2pvYjExMjAtZWxlbWVudC0xOS5wbmc.png" alt="">
-                                    <h2>Sedney Leonardo</h2>
-                                </div>
-
-                                <div class="message-content">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section-4-card">
-                            <div class="section-4-card-content">
-                                <div class="profil">
-                                    <img src="https://cdn.prod.website-files.com/6600e1eab90de089c2d9c9cd/662c092880a6d18c31995e13_66236537d4f46682e079b6ce_Casual%2520Portrait.webp" alt="">
-                                    <h2>Joe Brown</h2>
-                                </div>
-
-                                <div class="message-content">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="section-4-card">
-                            <div class="section-4-card-content">
-                                <div class="profil">
-                                    <img src="https://marketplace.canva.com/EAFuJ5pCLLM/1/0/1600w/canva-black-and-gold-simple-business-man-linkedin-profile-picture-BM_NPo97JwE.jpg" alt="">
-                                    <h2>Sherin Beauty</h2>
-                                </div>
-
-                                <div class="message-content">
-                                    <div class="stars">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nostrum.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
+        </div>
+    </section>
+            
             <footer>
                 <div class="footer-content">
                     <img src="./Assets/logo.png" alt="">
@@ -416,6 +280,8 @@
                 </div>
             </footer>
 
-
+            <script src="./JS/main.js">
+                
+            </script>
 </body>
 </html>

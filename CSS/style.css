@@ -13,11 +13,12 @@ body {
 
 .section-1 {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url("../Assets/WhatsApp Görsel 2024-12-23 saat 10.16.38_b01adda4.jpg");
     background-attachment: fixed;  
     background-position: center;
     background-size: cover;
+    background-color: green !important;
 }
 
 .header {
@@ -40,6 +41,30 @@ body {
     display: flex;
     align-items: center;
     justify-content:center;
+}
+
+@media (max-width : 540px) {
+    
+    .header-menu {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .header-navbar {
+        width: 100%;
+    }
+    .header-logo a img{
+        width: 120px;
+    }
+    .menu-icon i{
+        display: block;
+    }
+
+}
+
+.menu-icon i{
+    font-size: 28px;
 }
 
 .navbar-content {
@@ -97,6 +122,14 @@ body {
     cursor: pointer;
 }
 
+
+@media (max-width : 540px) {
+    .header-search {
+        display: none;
+    }
+    
+}
+
 .header-search:hover {
     background: var(--primary-color);
 }
@@ -136,20 +169,29 @@ body {
     background-color: var(--primary-color);
 }
 
+.menu-icon-div {
+    display: none;
+}
+
+.menu-icon-div i {
+    display: none;
+}
+@media (max-width:540px) {
+    .menu-icon-div {
+        display: block;
+    }
+    .menu-icon-div i {
+        display: block;
+        color: white;
+    }
+}
+
 .section-text {
     width: 100%;
-    height: 60vh;
     margin-top: 30px;
     display: flex;
     justify-content: center;
     margin-top: 100px;
-}
-
-.text-content h1 {
-    font-family: "Satisfy", cursive;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
 }
 
 .ff {
@@ -158,18 +200,6 @@ body {
 
 .mar-left {
     margin-left: 200px;
-}
-.btn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.btn button {
-    padding: 14px 50px ;
-    background: var(--primary-color);
-    border: none;
-    border-radius: 20px;
-    margin-top: 20px ;
 }
 
 .section-2 {
@@ -189,6 +219,15 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
+
+@media (max-width : 540px) {
+    .cards-2-customer {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .section-2-title {
     width: 100%;
@@ -228,6 +267,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -249,68 +289,16 @@ body {
     text-align: center;
 }
 
-.section-3 {
-    margin: 40px 0;
-    width: 100%;
-    height: 90vh;
-    background-image: url("../Assets/bg5.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    display: flex;
-    position: relative; 
-    justify-content: center;
-}
-
-.section-3::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8); 
-    z-index: 1; 
-}
-
-.section-3 .section-3-content {
-    position: relative; 
-    z-index: 2;
-    color: white;
-}
-
-
-.section-3-content {
-    width: 90%;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.section-3-text {
-    width:500px;
-}
-.section-3-text h4 {
-    color: var(--primary-color);
-    margin: 20px;
-}
-
-.section-3-text h4, .section-3-text h2 {
-    text-align: center;
-}
-
 .section-3-cards {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .section-3-card {
-    width: 360px;
     border: dashed gray 4px ;
     margin: 10px;
     cursor: pointer;
@@ -325,7 +313,19 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 350px;
+}
+@media (max-width:540px) {
+    .card-3-content{
+        width: 90%;
+    }
+    .section-2-cards {
+        width: 80%;
+    }
+    .section-2-cards-card {
+        width: 380px;
+        margin: 12px 0;
+    }
 }
 
 .section-3-h h1{
@@ -393,21 +393,17 @@ body {
     background-size: cover;
 }
 
-.section-4 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.section-4-content {
-    width: 90%;
-}
-
 .section-4-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 410px;
+    width: 30%;
+}
+
+@media (max-width:540px) {
+    .section-4-cards {
+        width: 100%;
+    }
 }
 
 .section-4-card {
@@ -483,6 +479,13 @@ footer {
     margin: 10px;
 
 }
+
+@media (max-width:540px) {
+    .footer-menu-menu ul{
+        display: block;
+    }
+    
+}
 .footer-menu-menu ul  li a {
     padding: 8px;
     border-radius: 8px;
@@ -500,4 +503,88 @@ footer {
 
 .footer-menu-social ul li a:hover {
     transform: scale(1.2) ;
+}
+
+
+
+
+
+
+/* Hamburger Menu Icon */
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+
+  /* Menu Overlay (Hidden by default) */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: right 0.4s ease;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Close Icon */
+.close-icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+  /* Menu Links */
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+  /* Search Section */
+.search-section {
+    margin-top: auto;
+    padding: 20px;
+}
+
+.search-section input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-section button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #777;
 }

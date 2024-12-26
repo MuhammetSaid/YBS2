@@ -154,18 +154,14 @@
     align-items: center;
     justify-content: space-around;
 }
-.section-4-h img {
-    width: 500px;
-}
-
 .section-4-h-content {
     width: 50%;
     background-color: rgb(26, 26, 26);
     border-radius: 40px;
     border: solid 4px var(--primary-color);
     padding: 50px;
-    
 }
+
 
 .name {
     display: flex;
@@ -187,7 +183,7 @@ input,textarea {
 
 .mail input {
     padding: 10px 20px;
-    width: 714px;
+    width: 100%;
     margin: 50px 0;
     background-color: transparent;
     border: solid 3px var(--primary-color);
@@ -196,7 +192,7 @@ input,textarea {
 
 .message textarea {
     padding: 10px 20px;
-    min-width: 714px;
+    min-width: 100%;
     margin-bottom: 50px;
     background-color: transparent;
     border: solid 3px var(--primary-color);
@@ -213,7 +209,6 @@ input,textarea {
     padding: 10px 60px;
     background-color: var(--primary-color);
     border-radius: 30px;
-    width: 760px;
 }
 
 .h1 {
@@ -224,4 +219,47 @@ input,textarea {
 .h1 h1 {
     color: white;
     margin-bottom: 50px;
+}
+
+
+@media (max-width:540px) {
+    .section-2-main-content {
+        display: block;
+    }
+    .section-2-left  {
+        width: 100%;
+    }
+    .section-2-left p {
+        margin: 0;
+    }
+    .section-2-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .section-2-right img {
+        width: 90%;
+    }
+
+    .section-4-h-content {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .name {
+        display: block;
+        padding: 0;
+    }
+
+    .name input {
+        width: 90%;
+        margin: 20px;
+    }
+    .section-4-h-content {
+        width: 90%;
+        padding: 0;
+    }
 }
