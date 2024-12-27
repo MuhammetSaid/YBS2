@@ -43,7 +43,7 @@ body {
     justify-content:center;
 }
 
-@media (max-width : 1040px) {
+@media (max-width : 540px) {
     
     .header-menu {
         display: none;
@@ -182,7 +182,7 @@ body {
 .menu-icon-div i {
     display: none;
 }
-@media (max-width:1040px) {
+@media (max-width:540px) {
     .menu-icon-div {
         display: block;
     }
@@ -227,7 +227,7 @@ body {
     margin-top: 30px;
 }
 
-@media (max-width : 1040px) {
+@media (max-width : 540px) {
     .cards-2-customer {
         display: block;
         display: flex;
@@ -321,7 +321,7 @@ body {
     flex-direction: column;
     width: 350px;
 }
-@media (max-width:1040px) {
+@media (max-width:540px) {
     .card-3-content{
         width: 90%;
     }
@@ -406,7 +406,7 @@ body {
     width: 30%;
 }
 
-@media (max-width:1040px) {
+@media (max-width:540px) {
     .section-4-cards {
         width: 100%;
     }
@@ -486,7 +486,7 @@ footer {
 
 }
 
-@media (max-width:1040px) {
+@media (max-width:540px) {
     .footer-menu-menu ul{
         display: block;
     }
