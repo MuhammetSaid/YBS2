@@ -222,7 +222,7 @@ input,textarea {
 }
 
 
-@media (max-width:540px) {
+@media (max-width:1040px) {
     .section-2-main-content {
         display: block;
     }
