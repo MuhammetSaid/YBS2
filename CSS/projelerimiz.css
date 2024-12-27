@@ -10,14 +10,33 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width: 540px) {
+    .section-text-p2 {
+        margin-top: 0;   
+    }
+}
 
 .text-content-p {
     width: 86%;
 }
 
+.projects-title {
+    border-bottom: solid 4px var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-icon {
+    padding: 12px 13px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+}
+
 .projects-title h1{
-    text-align: center;
     margin-top: 30px;
+    padding-bottom: 20px;
 }
 
 .projelerimiz-cards {
@@ -39,6 +58,7 @@
     align-items: center;
     border: solid 2px var(--primary-color);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+    margin-bottom: 40px;
 }
 
 .projelerimiz-orta-card {
